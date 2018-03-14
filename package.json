@@ -4,7 +4,7 @@
   "description": "React Native API compatible Picker with support for dialog mode on iOS",
   "main": "lib",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --notify"
   },
   "repository": {
     "type": "git",
@@ -33,5 +33,30 @@
   },
   "peerDependencies": {
     "react-native": "^0.54.2"
+  },
+  "devDependencies": {
+    "babel-jest": "^22.4.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react-native": "^4.0.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.1",
+    "jest-cli": "^22.4.2",
+    "jest-react-native": "^18.0.0",
+    "jsdom": "^9.12.0",
+    "react": "^16.2.0",
+    "react-native": "^0.54.2",
+    "react-native-mock-render": "0.0.21"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "*.js",
+      "lib/*.js"
+    ],
+    "preset": "jest-react-native",
+    "setupTestFrameworkScriptFile": "./setupTests.js",
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }
