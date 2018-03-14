@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/QuantumBA/PickerDialog/issues"
   },
-  "homepage": "https://github.com/QuantumBA/PickerDialog#readme"
+  "homepage": "https://github.com/QuantumBA/PickerDialog#readme",
+  "dependencies": {
+    "react-native-responsive-ui": "^1.1.1"
+  }
 }
