@@ -1,4 +1,6 @@
 # PickerDialog
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/QuantumBA/PickerDialog.svg)](https://greenkeeper.io/)
 React Native API compatible Picker with support for dialog mode on iOS
 
 This module implements the API for React Native
