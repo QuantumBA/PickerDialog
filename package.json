@@ -19,9 +19,10 @@
     "iOS",
     "Android"
   ],
-  "author": "Quantum BA (http://www.quantum-ba.com/)",
+  "author": "Foqum (http://www.foqum.io/)",
   "contributors": [
     "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>"
+    "Adrián Insausti Crespo <ainsausti@foqum.io>"
   ],
   "license": "MIT",
   "bugs": {
