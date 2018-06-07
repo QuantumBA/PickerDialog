@@ -1,6 +1,6 @@
 {
   "name": "pickerdialog",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "React Native API compatible Picker with support for dialog mode on iOS",
   "main": "lib",
   "scripts": {
